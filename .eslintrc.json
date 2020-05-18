@@ -12,7 +12,8 @@
     "plugin:react-hooks/recommended"
   ],
   "rules": {
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off"
   },
   "env": {
     "browser": true,
@@ -30,7 +31,8 @@
   "settings": {
     "react": {
       "version": "detect"
-    }
+    },
+    "import/resolver": { "typescript": {} }
   },
   "plugins": ["@typescript-eslint"]
 }
